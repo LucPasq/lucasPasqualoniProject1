@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
-    <nav>
+    <nav id="blogNav">
         <h2>Textilee</h2>
         <ul class="navMenu wrapper">
-            <li><a href="./index.html"></a>Home</li>
-            <li><a href="#"></a>About</li>
-            <li><a href="./blog.html"></a>Blog</li>
-            <li><a href="./contact.html"></a>Contact</li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./contact.html">Contact</a></li>
         </ul>
     </nav>
     <header id="blogHeader" class="blogHeader wrapper">
@@ -48,7 +48,7 @@
                 </div>
             </div>
         </section>
-        <section id="commentBox" class="blogComments">
+        <section id="commentBox" class="blogComments wrapper">
             <h5>Comments</h5>
             <div>
                 <img src="./textilee-assets/comment-1.jpg" alt="a smiling woman">
@@ -66,12 +66,12 @@
             </div>
         </section>
         <section id="inputBox" class="inputBox">
-            <div class="detailInput">
-                <input type="text" id="name" name="name" cols="50" placeholder="Name">
-                <input type="text" id="email" name="email" cols="50" placeholder="Email Address">
+            <div class="blogDetailInput">
+                <input type="text" id="blogName" name="blogName" cols="50" placeholder="Name">
+                <input type="text" id="blogEmail" name="blogEmail" cols="50" placeholder="Email Address">
             </div>
-            <div class="commentInput">
-                <input type="text" id="comment" name="comment" cols="100" row="30" placeholder="Comment">
+            <div class="blogCommentInput">
+                <input type="text" id="blogComment" name="blogComment" cols="100" row="30" placeholder="Comment">
             </div>
             <button class="blogButton">post comment</button>
         </section>
