@@ -241,3 +241,71 @@ html {
   src: url("../fonts/Lato/Lato-Bold.ttf"), url("../fonts/Lato/Lato-Regular.ttf");
   font-weight: bold;
 }
+h1 {
+  font-family: "Pacifico";
+}
+
+html {
+  font-size: 125%;
+}
+
+body {
+  font-family: "Lato";
+  font-size: 1rem;
+  color: #161515;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: "Pacifico";
+  font-weight: normal;
+  color: #1E1713;
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.4rem;
+  line-height: 64px;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 2.4rem;
+  margin-bottom: 18px;
+}
+
+ul, li, a {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1260px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
