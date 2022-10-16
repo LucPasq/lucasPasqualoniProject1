@@ -309,3 +309,7 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+.headerUpper {
+  background-image: url(../textilee-assets/header-home.jpg);
+}
