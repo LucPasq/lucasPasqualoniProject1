@@ -313,3 +313,25 @@ img {
 .headerUpper {
   background-image: url(../textilee-assets/header-home.jpg);
 }
+
+nav {
+  height: 10vh;
+  letter-spacing: 1.5px;
+}
+
+nav ul {
+  list-style: none;
+  font-size: 18px;
+  text-align: right;
+}
+
+nav li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 0 5px;
+  color: #1A315C;
+}
