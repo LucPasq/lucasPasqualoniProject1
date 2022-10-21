@@ -15,6 +15,42 @@
 
 .contactInput{
     width: 750px;
+    background-color: variables.$darkSlateBlue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 50px;
+    border:5px solid variables.$turquioseBlue;
+}
+
+.contactDetailInput{
+    width: 340px;
+    background-color: variables.$darkSlateBlue;
+    color: variables.$pureWhite;
+    border:none;
+    border-bottom: 2px solid variables.$turquioseBlue;
+    margin-top:10px;
+}
+
+.contactMessageInput{
+    background-color: variables.$darkSlateBlue;
+    color: variables.$pureWhite;
+    width:100%;
+    height: 300px;
+    border: 2px solid variables.$turquioseBlue;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.contactButton{
+    width: 100%;
+    height: 50px;
+    background-color: variables.$lightSkyBlue;
+    color: variables.$blackOne;
+    border: none;
+    font-family: variables.$headingFont;
 }
 
 
@@ -26,7 +62,8 @@
 
 
 .contactInfo{
-    width:300px;
+    width:200px;
+    margin-top: 90px;
 }
 
 
@@ -42,4 +79,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.contactInfoStack p{
+    font-size: 16px;
+    line-height:16px;
+    letter-spacing: 2px;
 }
