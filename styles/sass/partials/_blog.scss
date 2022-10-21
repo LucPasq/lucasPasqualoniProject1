@@ -21,6 +21,7 @@
 .blogPicsLeft{
     width:750px;
     border: solid variables.$turquioseBlue 5px ;
+    font-size: 75%;
 }
 
 .blogPicsLeft, .blogPicsLeft h3, .blogPicsLeft h6{
@@ -37,6 +38,7 @@
     line-height: 28px;
     text-decoration: none;
     color: variables.$pureWhite; 
+    border: 2px solid variables.$darkSlateBlue;
 }
 
 .sidebar h3{
@@ -87,5 +89,43 @@
 .commentAlign div h6{
     color: variables.$darkSlateBlue;
     font-size: 125%;
+}
+
+.inputBox{
+    margin: 0 50px;
+    display:flex;
+    flex-direction: column;
+    width: 750px;
+}
+
+.blogDetailInput{
+    background-color: variables.$lightSkyBlue;
+    padding: 0; 
+}
+
+.detailBox{
+    width: 370px;
+    background-color: variables.$lightSkyBlue;
+    border:none;
+    border-bottom: 2px solid variables.$turquioseBlue;
+}
+
+.blogCommentInput{
+    background-color: variables.$lightSkyBlue;
+    width:100%;
+    height: 300px;
+    border: 2px solid variables.$turquioseBlue;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.blogButton{
+    width: 100%;
+    height: 50px;
+    background-color: variables.$darkSlateBlue;
+    color: variables.$pureWhite;
+    border: none;
+    margin-bottom: 75px;
+    font-family: variables.$headingFont;
 }
 

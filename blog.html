@@ -66,17 +66,19 @@
             </div>
         </section>
         <section id="inputBox" class="inputBox">
-            <div class="blogDetailInput">
-                <input type="text" id="blogName" name="blogName" cols="50" placeholder="Name">
-                <input type="text" id="blogEmail" name="blogEmail" cols="50" placeholder="Email Address">
-            </div>
-            <div class="blogCommentInput">
-                <input type="text" id="blogComment" name="blogComment" cols="100" row="30" placeholder="Comment">
-            </div>
-            <button class="blogButton">post comment</button>
+            <form>
+                <div class="blogDetailInput">
+                    <input type="text" id="blogName" name="blogName" cols="50" row="30" class="detailBox" placeholder="Name">
+                    <input type="text" id="blogEmail" name="blogEmail" cols="50" class="detailBox" placeholder="Email Address">
+                </div>
+                <div >
+                    <textarea type="text" id="blogComment" name="blogComment" cols="100" row="30" class="blogCommentInput" placeholder="Comment"></textarea>
+                </div>
+                <button class="blogButton">post comment</button>
+            </form>
         </section>
     </main>
-    <footer id="blogFooter" class="footer">
+    <footer id="blogFooter" class="footer wrapper">
         <p>Copyright 2019 Juno College</p>
     </footer>
 </body>
