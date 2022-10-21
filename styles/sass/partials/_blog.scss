@@ -1,0 +1,91 @@
+@use './variables';
+
+.blogHeader{
+    background-image: url(../textilee-assets/blog-header.jpg);
+    height: 400px;
+    position: center;
+}
+
+.blogMain{
+    background-color: variables.$lightSkyBlue;
+}
+
+.blogPics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.blogPicsLeft{
+    width:750px;
+    border: solid variables.$turquioseBlue 5px ;
+}
+
+.blogPicsLeft, .blogPicsLeft h3, .blogPicsLeft h6{
+    background-color: variables.$darkSlateBlue;
+    color: variables.$pureWhite;
+}
+
+.sidebar{
+    background-color: variables.$darkSlateBlue;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 200px;
+    line-height: 28px;
+    text-decoration: none;
+    color: variables.$pureWhite; 
+}
+
+.sidebar h3{
+    color: variables.$pureWhite;
+}
+
+.blogList{
+    color: variables.$pureWhite;
+}
+
+.blogList ul li{
+    color: inherit;
+}
+
+.sidebar p{
+   width: 170px;
+   font-size: 75%;
+}
+
+.blogComments{
+    
+    width: 750px;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: 0 50px;
+    margin-bottom: 50px;
+}
+
+.blogComments h5{
+    font-size: 150%;
+
+}
+
+.commentAlign{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.commentAlign div{
+    font-size: 75%;
+    max-width: 80%;
+}
+
+.commentAlign div h6{
+    color: variables.$darkSlateBlue;
+    font-size: 125%;
+}
+

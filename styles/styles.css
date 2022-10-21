@@ -502,12 +502,130 @@ nav a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.footer h4 {
   font-family: "Lato";
   letter-spacing: 2px;
   color: #FFFFFF;
+}
+
+.blogHeader {
+  background-image: url(../textilee-assets/blog-header.jpg);
+  height: 400px;
+  position: center;
+}
+
+.blogMain {
+  background-color: #CCEDFB;
+}
+
+.blogPics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 50px;
+}
+
+.blogPicsLeft {
+  width: 750px;
+  border: solid #0CADC0 5px;
+}
+
+.blogPicsLeft, .blogPicsLeft h3, .blogPicsLeft h6 {
+  background-color: #1A315C;
+  color: #FFFFFF;
+}
+
+.sidebar {
+  background-color: #1A315C;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 200px;
+  line-height: 28px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.sidebar h3 {
+  color: #FFFFFF;
+}
+
+.blogList {
+  color: #FFFFFF;
+}
+
+.blogList ul li {
+  color: inherit;
+}
+
+.sidebar p {
+  width: 170px;
+  font-size: 75%;
+}
+
+.blogComments {
+  width: 750px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 0 50px;
+  margin-bottom: 50px;
+}
+
+.blogComments h5 {
+  font-size: 150%;
+}
+
+.commentAlign {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.commentAlign div {
+  font-size: 75%;
+  max-width: 80%;
+}
+
+.commentAlign div h6 {
+  color: #1A315C;
+  font-size: 125%;
 }
 
 @media (max-width: 1000px) {
