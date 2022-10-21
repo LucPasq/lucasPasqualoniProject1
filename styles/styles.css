@@ -509,3 +509,31 @@ nav a {
   letter-spacing: 2px;
   color: #FFFFFF;
 }
+
+@media (max-width: 1000px) {
+  body {
+    font-size: 80%;
+  }
+  img {
+    max-width: 80%;
+    max-height: 70%;
+  }
+}
+@media (max-width: 750px) {
+  body {
+    font-size: 70%;
+  }
+  img {
+    max-width: 70%;
+    max-height: 60%;
+  }
+}
+@media (max-width: 320px) {
+  body {
+    font-size: 60%;
+  }
+  img {
+    max-width: 60%;
+    max-height: 50%;
+  }
+}
