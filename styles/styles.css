@@ -271,6 +271,7 @@ h2 {
   font-size: 2rem;
   line-height: 2.4rem;
   margin-bottom: 18px;
+  color: #1A315C;
 }
 
 ul, li, a {
@@ -286,6 +287,11 @@ a {
   text-decoration: none;
 }
 
+p {
+  line-height: 28px;
+  letter-spacing: 2px;
+}
+
 .wrapper {
   width: 90%;
   margin: 0 auto;
@@ -298,6 +304,7 @@ img {
 }
 
 .gallery {
+  background-color: #1A315C;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -305,13 +312,47 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 400px;
 }
 
 .headerUpper {
   background-image: url(../textilee-assets/header-home.jpg);
+  background-position: center;
+}
+
+.headerLower {
+  background-color: #CCEDFB;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 400px;
+}
+
+.lowerHeaderText {
+  width: 500px;
+}
+
+.lowerHeaderImage {
+  height: 300px;
+  width: 300px;
+  background-color: #0CADC0;
+  background-position: left 5px bottom 5px;
 }
 
 nav {
@@ -334,4 +375,22 @@ nav a {
   text-decoration: none;
   padding: 0 5px;
   color: #1A315C;
+}
+
+.links {
+  background-color: #CCEDFB;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }

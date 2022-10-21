@@ -50,6 +50,7 @@ body {
     font-size: 2rem;
     line-height: 2.4rem;
     margin-bottom: 18px;
+    color: variables.$darkSlateBlue;
   }
 
   ul, li, a {
@@ -63,4 +64,9 @@ body {
   
   a {
     text-decoration: none;
+  }
+
+  p {
+    line-height: 28px;
+    letter-spacing: 2px;
   }

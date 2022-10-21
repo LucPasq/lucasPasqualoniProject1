@@ -1,0 +1,11 @@
+@use "./variables";
+
+.links{
+    background-color: variables.$lightSkyBlue;
+    height: 600px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+

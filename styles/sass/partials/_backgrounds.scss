@@ -2,4 +2,25 @@
 
 .headerUpper{
     background-image: url(../textilee-assets/header-home.jpg);
+    background-position: center;
+}
+
+.headerLower{
+    background-color: variables.$lightSkyBlue ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 400px;
+}
+
+.lowerHeaderText{
+    width:500px;
+}
+
+.lowerHeaderImage {
+    height:300px;
+    width: 300px;
+    background-color: variables.$turquioseBlue;
+    background-position: left 5px bottom 5px;
 }
