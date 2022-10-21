@@ -53,6 +53,19 @@ body {
     color: variables.$darkSlateBlue;
   }
 
+  .buttonRead, .buttonMore {
+    font-family: variables.$headingFont;
+    text-decoration: none;
+  }
+
+  .buttonMore{
+    color: variables.$pureWhite;
+  }
+
+  .buttonRead{
+    color: variables.$blackTwo;
+  }
+
   ul, li, a {
     padding: 0;
     margin: 0;

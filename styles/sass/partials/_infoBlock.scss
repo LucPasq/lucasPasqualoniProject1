@@ -1,0 +1,25 @@
+@use './variables';
+
+.infoBlock{
+    height: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: variables.$darkSlateBlue;
+}
+
+.blockLeft, .blockRight {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.buttonRead{
+    height: 40px;
+    width: 120px;
+    background: variables.$lightSkyBlue; 
+    border: none;
+}
