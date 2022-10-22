@@ -19,6 +19,8 @@
     url("../fonts/Lato/Lato-Regular.ttf");
     font-weight: bold;
 }
+//Now THIS part was a crash couse on how to download and store fonts - The only other time we used the @font-face method was during the eCommerce code-along in class- and those had the font-files-
+// already included within the starter .zips. Took quite a while to get these sorted, but i'm happy I've actually managed to get it done!
 
 h1 {
     font-family: variables.$headingFont;
@@ -83,3 +85,6 @@ body {
     line-height: 28px;
     letter-spacing: 2px;
   }
+
+  //General font stying for various semantic elements. Honestly - this could be done better - I overwrite allot of whats here in later partials. Not very DRY at all, which is something I know I gotta work on.
+  //Afraid to touch now - Liable to break stuff. Such is life. Made a note to focus on doing this better next time. Repetition will drive it into my skull.

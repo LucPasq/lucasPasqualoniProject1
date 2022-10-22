@@ -11,15 +11,11 @@
 @use './partials/footer';
 @use './partials/blog';
 @use './partials/contact';
-
-
-
-
-
-
-
-
-
-
-
 @use './partials/mediaQueries';
+
+
+//Alright. The "main" scss hub. While I've used scss before in assignment one - I did not really know how partials worked then. Now? I think i've formed an unhealthy love of partials.
+//Even though there is very little here - This place became an interesting lesson in order - imagine my suprise when I figured out the order the partials are in matters!
+
+//Note that there's no comments on the actual css file because 1. I'm scared to touch anything in there due to 2. never having actually written anything inside it myself - everything was
+//done with scss, and I really do not want to risk it.

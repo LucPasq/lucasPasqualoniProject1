@@ -7,6 +7,7 @@
     <title>Blog</title>
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
+<!--Blog page! Standard initialization and stylesheet linking above.-->
 <body>
     <nav id="blogNav" class="wrapper">
         <h1>Textilee</h1>
@@ -17,9 +18,11 @@
             <li><a href="./contact.html">Contact</a></li>
         </ul>
     </nav>
+    <!--The nice thing about the nav bar that since it was the same across all pages, you only needed to "make" it once. A sneaky lesson in asset recycling, perhaps?-->
     <header id="blogHeader" class="blogHeader wrapper">
         <h2>Blog</h2>
     </header>
+    <!--Small html header here conceals the true nature of it - a large background image takes up quite a bit of space on the page.-->
     <main id="blogMain" class="blogMain wrapper">
         <section id="blogPics" class="blogPics">
             <div class="blogPicsLeft">
@@ -31,6 +34,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim aut amet porro accusantium beatae cupiditate velit inventore nostrum suscipit nihil impedit, saepe recusandae totam corporis?</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime minus dignissimos sed voluptatum accusantium exercitationem itaque quam error esse ipsa. </p>
             </div>
+            <!--Oh boy, the *fun* part. Never has aligning side by side elements caused me so much grief before. Above paragraphs and text boxes (hopefully) aligned decently well.-->
             <div class="sidebar">
                 <img src="./textilee-assets/sidebar-image.jpg" alt="rolls of cloth stacked on one another, viewed lengthwise">
                 <div>
@@ -47,6 +51,7 @@
                     </ul>
                 </div>
             </div>
+            <!--Deceptively rebellious sidebar. Spacing of the image, the header and the linklist uncooperative. Couldn't figure out how to remove the styling from the links, though not through lack of effort, as you'll soon see in the scss (I legitimately lost a few hours of sleep over this).-->
         </section>
         <section id="commentBox" class="blogComments wrapper">
             <h5>Comments:</h5>
@@ -65,6 +70,7 @@
                 </div>
             </div>
         </section>
+        <!--Comments from real (fake) people! Thankfully we didn't need to make an actually functional comment section since I don't think I know how to do that yet.-->
         <section id="inputBox" class="inputBox">
             <form>
                 <div class="blogDetailInput">
@@ -77,9 +83,11 @@
                 <button class="blogButton">post comment</button>
             </form>
         </section>
+        <!--Alright, this part was interesting to get working. The inputs were fine - might have some spurious code in them, not sure. I was going to make the "comment" box an input as well, before I went back and referenced a past project I did for the accelerated webdev course, and saw that "textarea" is an option to use as well.-->
     </main>
     <footer id="blogFooter" class="footer wrapper">
         <p>Copyright 2019 Juno College</p>
     </footer>
+    <!--Good ol' footer-->
 </body>
 </html>

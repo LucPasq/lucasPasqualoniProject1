@@ -7,6 +7,7 @@
     <title>Home</title>
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
+<!--Standard initialization and prep here. Had to remember to link the regular stylesheet, NOT the scss one!-->
 <body>
     <nav id="nav" class="wrapper">
         <h1>Textilee</h1>
@@ -17,6 +18,7 @@
             <li><a href="./contact.html">Contact</a></li>
         </ul>
     </nav>
+    <!--Nav bar. Created mostly the same as the Ecommerce one, with a touch of tweaking. Not really sure where the about link is supposed to lead to. Only so much a static .jpeg can convey.-->
     <header id="header" class="header wrapper">
         <div class="headerUpper">
             <h2>Textiles for all projects in mind</h2>
@@ -33,12 +35,14 @@
             </div>
         </div>
     </header>
+    <!--Above code for header. Little tricky, working both regular images and background images together and attempting to position them. Think they're *mostly* in the right spot. Repetition will probably hammer it down-->
     <main id="main" class="main">
         <section id="gallery" class="gallery wrapper">
             <img src="./textilee-assets/gallery-image-1.jpg" height="250" width="250" alt="a spool of thread with two balls of yarn beside it, swathed in fabric">
             <img src="./textilee-assets/gallery-image-2.jpg" height="250" width="250" alt="a pair of tailors scissors, a spool of thread and a measuring tape all resting on top of a blanket of fabric">
             <img src="./textilee-assets/gallery-image-3.jpg" height="250" width="250" alt="a small wooden shelf with many small spools of thread within individual shelves inside of it">
         </section>
+        <!--Starting off the main with the gallery. Nothing fancy, just some foreground images.-->
         <section id="links" class="links wrapper">
             <div>
                 <div>
@@ -61,6 +65,7 @@
                 </div>
             </div>
         </section>
+        <!--Alright, here's where it started to get tricky. Couldn't think of a more descriptive name for this section so I stuck with "links". Suppose it gets the point across well enough. What's with those images in the sample? they weren't included in the assets folder.-->
         <section id="infoBlock" class="infoBlock wrapper">
             <div class="blockLeft">
                 <div>
@@ -83,17 +88,22 @@
                 </div>
             </div>
         </section>
+        <!--Another section without a satisfactory name. I took the time to ID all the sections even though I didn't use them. Just seemed like good practice. Flexboxes in flexboes, my favourite.-->
         <section id="imgBanner" class="imgBanner wrapper">
             <img src="./textilee-assets/banner.jpg" alt="a multitude of loose bundles of ropes and threads">
         </section>
+        <!--A section devoted to one huge image. Bleh. Works, however.-->
         <section id="search" class="search wrapper">
             <h2>Search by Style</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad atque et perferendis! Ipsam tempore voluptatem possimus, sit alias nam perspiciatis similique nihil quaerat voluptate provident obcaecati et expedita cupiditate distinctio ea ipsum enim, officia architecto itaque voluptas hic, laudantium doloribus? Assumenda architecto ipsum minus fugiat repellat fuga quidem perferendis nihil?</p>
             <button class="buttonMore">Find out more</button>
         </section>
+        <!--Final section of the main. Nothing crazy here - since I don't really know where "Find out more" is supposed to lead, I just amde it a button. Can be easily retrofitted in the future if need be.-->
     </main>
+    <!--Main ends here.-->
     <footer id="footer" class="footer wrapper">
         <p>Copyright 2019 Juno College</p>
     </footer>
+    <!--Standard, simple footer used across all 3 pages. To be honest I wasn't sure if it was actually "part" of the page due to the date being wrong, but hey, couldn't hurt, right?-->
 </body>
 </html>

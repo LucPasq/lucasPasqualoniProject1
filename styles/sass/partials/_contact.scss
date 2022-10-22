@@ -53,27 +53,15 @@
     font-family: variables.$headingFont;
 }
 
-
-
-
-
-
-
-
-
 .contactInfo{
     width:200px;
     margin-top: 90px;
 }
 
-
 .contactLogosEmail{
     display:flex;
     flex-direction: column;
 }
-
-
-
 
 .contactLogoBar{
     display: flex;
@@ -86,3 +74,7 @@
     line-height:16px;
     letter-spacing: 2px;
 }
+
+//Alright, here's where it gets really un-DRY, probably. I am scared to touch anything here for fear of it breaking. Please don't breathe on this code too hard.
+//Jokes aside, this and contact's scss was constructed a different day than the torrent of tiny partials - as you can see its all combined into one.
+//I *think* this way is better. Maybe. 

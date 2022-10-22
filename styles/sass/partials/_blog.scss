@@ -130,3 +130,6 @@
     font-family: variables.$headingFont;
 }
 
+//Ok, This is the partial handling the blog page. I fairly certain there's really un-DRY code in here - but trying to tweak and remove stuff makes seemingly unrelated stuff break. Awesome.
+//This is a good lesson in DRY planning, but other than that i'm relatively content with how it turned out. Couldn't get absolute positioning to work for the life of me - every time I attempted
+//to implement it the whole dang page broke: elements scattered every which way, you know the deal. Ah well.
