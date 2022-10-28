@@ -14,4 +14,4 @@ function confirmPost(){
 }
 
 //that's it. Small. Quick. Simple. Demonstrates functional knowledge of JS while adding a bit of form-handling functionality to the page. Can't wait to be allowed to use jQuery, thats when
-//the ACTUAL fun begins!
+//the ACTUAL fun begins! The git branching portion is a touch tricky however.
