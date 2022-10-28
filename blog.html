@@ -80,7 +80,8 @@
                 <div >
                     <textarea type="text" id="blogComment" name="blogComment" cols="100" row="30" class="blogCommentInput" placeholder="Comment"></textarea>
                 </div>
-                <button class="blogButton">post comment</button>
+                <button onclick="confirmPost()" class="blogButton">post comment</button>
+                <!--Little innocous onclick to popup the confirmation box!-->
             </form>
         </section>
         <!--Alright, this part was interesting to get working. The inputs were fine - might have some spurious code in them, not sure. I was going to make the "comment" box an input as well, before I went back and referenced a past project I did for the accelerated webdev course, and saw that "textarea" is an option to use as well.-->
@@ -89,5 +90,7 @@
         <p>Copyright 2019 Juno College</p>
     </footer>
     <!--Good ol' footer-->
+    <script src="scripts.js"></script>
+    <!--Alright, first addition for assignment two! so, the thought process for this branch is to add a cooldown timer to the submit button, to prevent spam-posts.-->
 </body>
 </html>
